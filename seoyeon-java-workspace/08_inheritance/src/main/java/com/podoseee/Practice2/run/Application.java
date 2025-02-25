@@ -9,14 +9,14 @@ public class Application {
         Circle[] circles = new Circle[2];
         Rectangle[] rectangles = new Rectangle[2];
         // 위의 사용 데이터를 참고하여 각각 초기화
-        circles[0] = new Circle();
-        circles[1] = new Circle();
-        rectangles[0] = new Rectangle();
-        rectangles[1] = new Rectangle();
+        circles[0] = new Circle(1, 2, 3);
+        circles[1] = new Circle(3, 3, 4);
+        rectangles[0] = new Rectangle(-1, -2, 5, 2);
+        rectangles[1] = new Rectangle(-2, 5, 2, 8);
 
         // 각 도형의 draw 메소드 실행	    		 --> 향상된 for문 이용해서
         for (Circle c : circles){
-            Circle.draw();
+            c.draw();
         }
 
         for (Rectangle rectangle : rectangles) {
