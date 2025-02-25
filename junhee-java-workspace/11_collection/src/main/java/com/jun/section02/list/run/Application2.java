@@ -19,7 +19,7 @@ public class Application2 {
             * Arrays.asList 유의사항
               fixed-size list 반환함 (길이 변경이 불가능한 리스트)
               새로운 요소 추가 및 요소 삭제 가능
-              단, 기준의 요ㅗ를 새로운 요소로 변경은 가능
+              단, 기존의 요소를 새로운 요소로 변경은 가능
          */
         //seasonList.set("사계절"); // UnsupportedOperationException 발생
 
