@@ -92,7 +92,7 @@ public class Application3 {
         ((Music)nonTypeList.get(1)).setTitle("저 밤");
         System.out.println(nonTypeList.get(1));
 
-        Music m2 = (Music)nonTypeList.get(2); // 부적절한 형변환이 진행될 수 있음 => ClassCastException 발생 여지가 있음
+//        Music m2 = (Music)nonTypeList.get(2); // 부적절한 형변환이 진행될 수 있음 => ClassCastException 발생 여지가 있음
         /*
             ## 컬렉션 사용시 타입 지정 권장 ##
             1. 명시된 타입의 객체만 저장될 수 있도록 제한을 둘 수 있어 데이터의 안정성 확보

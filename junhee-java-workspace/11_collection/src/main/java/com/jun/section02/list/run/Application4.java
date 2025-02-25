@@ -12,7 +12,7 @@ import java.util.List;
 public class Application4 {
     public static void main(String[] args) {
         List<String> stringList = Arrays.asList("banana", "apple", "orange", "mango", "grape");
-        System.out.println("정렬된 stringList: " + stringList);
+        System.out.println("정렬전 stringList: " + stringList);
 
         // * Collections.sort(List<T> list) : 인자로 전달된 리스트 내의 요소들을 사전순으로 오름차순 정렬해줌
         Collections.sort(stringList);

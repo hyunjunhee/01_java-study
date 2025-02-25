@@ -27,7 +27,7 @@ public class Application1 {
             }
          */
 
-        ArrayList alist = new ArrayList();
+        ArrayList aList = new ArrayList();
         //List list = new List();
         List list = new ArrayList(); // 다형성 적용
 
@@ -60,7 +60,7 @@ public class Application1 {
 
         // 정수 데이터 저장용 리스트 생성 (Integer 타입만 저장되도록)
         List<Integer> numList = new ArrayList<>();
-        //numlist.add("안녕") //안됌
+        //numList.add("안녕") //안됌
         numList.add(1);
         numList.add(2);
         numList.add(3);
